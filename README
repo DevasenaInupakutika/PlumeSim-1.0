@@ -1,0 +1,23 @@
+PlumeSim - Plume Simulator for Player/Stage 
+Copyright (C) 2010 ISR
+http://embedded.deec.uc.pt/~guardians/plumesim/Home.html
+
+BUILD PLUMESIM:
+  Be sure that you have Player 3.0.x installed and on your system PATH,
+  LD_LIBRARY_PATH, and PKG_CONFIG_PATH
+
+  In the PlumeSim-1.0 source directory, run "make" from your command line.
+  If everything is set up correctly, libPlumeSim.so should be created.
+
+RUN PLUMESIM:
+  Simulation files adapted from simple.cfg and simple.world distributed with
+  Stage 3.2.2.  cave.png, sick.inc, pioneer.inc, and map.inc copied from
+  Stage 3.2.2 distribution.  http://playerstage.sourceforge.net
+
+  Be sure to have Stage 3.2.x and Player 3.0.x installed. Navigate to
+  the "simulation" directory and run
+  
+  player PlumeSim.cfg
+
+  from your command line.  This should start a PlumeSim simulation.
+  Modify PlumeSim.cfg to change the PlumeSim driver parameters.
